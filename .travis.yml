@@ -22,7 +22,6 @@ after_success:
   - docker push vaibhavbrkn/multi-worker
 
 deploy:
-  edge: true
   provider: elasticbeanstalk
   region: ap-south-1
   app: multi-docker
